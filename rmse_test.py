@@ -10,3 +10,7 @@ def test_rmse():
     targets = [1, 2, 3, 4, 5]
 
     assert rmse.rmse(predictions, targets) == 1
+
+    print("All tests passed.")
+
+test_rmse()
